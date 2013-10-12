@@ -21,7 +21,7 @@ if (urlencode(@$_REQUEST['action']) == "getpdf") {
 
 
         $pdf->SetFont('Helvetica', 'B', 10);
-        $pdf->Cell(40 ,7, $TEXT['cds-attrib1'], 1);
+        $pdf->Cell(40 ,7, $TEXT['cds-attrib1']
         $pdf->Cell(100 ,7, $TEXT['cds-attrib2'], 1);
         $pdf->Cell(20 ,7, $TEXT['cds-attrib3'], 1);
         $pdf->Ln();
